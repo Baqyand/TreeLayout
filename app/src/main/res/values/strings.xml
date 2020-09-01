@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TREELAYOUT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="saya_bama_terlahir_di_tasik_13_februari_2003_saya_adalah_salah_satu_pelajar_di_smkn_4_bandung_jurusan_rekayasa_perangkat_lunak_rpl_saya_merupakan_orang_yang_sangat_tertarik_dengan_dunia_pemrograman_dan_dunia_game_developer_saya_adalah_orang_yang_senang_memimpin_team_dan_merupakan_seorang_inisiator_jika_itu_adalah_hal_yang_saya_sukai_saya_juga_tertarik_untuk_mengerjakan_proyek_besar_baik_itu_aplikasi_maupun_web_karena_saya_sangat_tertarik_dalam_kerja_team_saya_juga_memiliki_surel_dan_nomor_yang_dapat_dihubungi_yaitu_085708339519_untuk_nomor_handphone_dan_bamaqyan_gmail_com_untuk_alamat_email_saya">Saya Bama terlahir di Tasik, 13 februari 2003. Saya adalah salah satu pelajar di SMKN 4 Bandung jurusan Rekayasa Perangkat Lunak (RPL). Saya merupakan orang yang sangat tertarik dengan dunia Pemrograman dan dunia game developer. Saya adalah orang yang senang memimpin team dan merupakan seorang inisiator jika itu adalah hal yang saya sukai. Saya juga tertarik untuk mengerjakan Proyek besar baik itu aplikasi maupun web, karena saya sangat tertarik dalam kerja team. Saya juga memiliki surel dan nomor yang dapat dihubungi. Yaitu, 085708339519 untuk nomor handphone dan bamaqyan@gmail.com untuk alamat email saya.</string>
+    <string name="data_diri">Data diri</string>
+    <string name="tasik_13_februari_2003">Tasik, 13 februari 2003</string>
+    <string name="ttl">TTL</string>
+    <string name="kelas">Kelas</string>
+    <string name="xii_rpl_2">XII RPL 2</string>
+    <string name="melakukan_apapun_yang_membuat_hepi">Melakukan apapun yang membuat hepi</string>
+    <string name="hobi">Hobi</string>
+    <string name="kontak_bama">Kontak Bama</string>
+</resources>

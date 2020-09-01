@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#98898B"
+    >
+
+    <TextView
+        android:id="@+id/post_sosmed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:visibility="gone"
+        />
+    <RelativeLayout
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:elevation="15dp"
+        android:background="@drawable/shadow"
+        >
+
+        <ImageView
+            android:id="@+id/img_ico"
+            android:layout_width="98dp"
+            android:layout_height="122dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/tw"
+            tools:src="@android:color/holo_blue_bright" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_toEndOf="@id/img_ico"
+            android:layout_toRightOf="@id/img_ico"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:text="Akun : Twitter" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="Id: @will_qyan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/colorAccent"
+                android:text="Device: Android" />
+            <Button
+                android:id="@+id/btntw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Twitter"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="190dp"
+        android:elevation="15dp"
+        android:background="@drawable/shadow"
+        >
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="98dp"
+            android:layout_height="122dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ig"
+            tools:src="@android:color/holo_blue_bright" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="24dp"
+            android:layout_toEndOf="@id/img_icon"
+            android:layout_toRightOf="@id/img_icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:text="Akun : Instagram" />
+            <TextView
+                android:id="@+id/img_harga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="Id: @baqyand" />
+
+            <TextView
+                android:id="@+id/img_ikan_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/colorAccent"
+                android:text="Device: Android" />
+            <Button
+                android:id="@+id/btn_ig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Instagram"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

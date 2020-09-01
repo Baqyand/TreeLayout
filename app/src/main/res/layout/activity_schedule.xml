@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:elevation="15dp"
+    android:columnCount="3"
+    android:rowCount="3"
+    android:background="@drawable/shadow"
+    tools:context=".ScheduleActivity">
+
+
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="122dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ng"
+        tools:src="@android:color/holo_blue_bright" />
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="122dp"
+        android:layout_marginLeft="45dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bl"
+        tools:src="@android:color/holo_blue_bright" />
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="122dp"
+        android:layout_marginLeft="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/td"
+        tools:src="@android:color/holo_blue_bright" />
+
+</GridLayout>
